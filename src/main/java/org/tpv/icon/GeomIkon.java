@@ -5,15 +5,15 @@ import org.kordamp.ikonli.Ikon;
 public enum  GeomIkon  implements Ikon {
 
 
-    CIRCLELINE("icon-circle", '\uE800'),
-    ELLIPSELINE("icon-ellipse", '\uE801');
+    CIRCLE_LINE( '\uE800'),
+    ELLIPSE_LINE( '\uE801');
 
     private String description;
-    private char icon;
+    private char code;
 
-    GeomIkon(String description, char icon) {
-        this.description = description;
-        this.icon = icon;
+    GeomIkon( char code) {
+        this.description = "geom-" + name().toLowerCase().replace("_", "-");
+        this.code = code;
     }
 
     @Override
@@ -23,7 +23,7 @@ public enum  GeomIkon  implements Ikon {
 
     @Override
     public int getCode() {
-        return icon;
+        return code;
     }
 
     public static GeomIkon findByDescription(String description) {
