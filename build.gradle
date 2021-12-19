@@ -8,7 +8,7 @@
 plugins {
     id 'java'
     id 'maven' //for jitpack
-    id 'application'
+//    id 'application'
     id "org.openjfx.javafxplugin" version "0.0.9"
 }
 
@@ -33,6 +33,6 @@ dependencies {
     implementation ('org.kordamp.ikonli:ikonli-core:12.2.0')
 }
 
-application {
-    mainClassName = 'org.tpv.icon.Main'
-}
+//application {
+//    mainClassName = 'org.tpv.icon.Main'
+//}
