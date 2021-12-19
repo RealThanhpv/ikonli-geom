@@ -12,6 +12,14 @@ plugins {
     id "org.openjfx.javafxplugin" version "0.0.9"
 }
 
+javafx {
+    version = "17.0.1"
+}
+
+projects {
+    group = 'org.tpv'
+    version = '1.0'
+}
 
 repositories {
     mavenCentral()
