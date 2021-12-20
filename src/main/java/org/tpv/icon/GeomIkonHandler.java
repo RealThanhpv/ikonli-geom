@@ -7,7 +7,7 @@ import java.io.InputStream;
 import java.net.URL;
 
 public class GeomIkonHandler extends AbstractIkonHandler {
-    private static String fileName = "geom.ttf";
+    private static String fileName = "happy.ttf";
 
     @Override
     public boolean supports(String description) {
@@ -31,7 +31,7 @@ public class GeomIkonHandler extends AbstractIkonHandler {
 
     @Override
     public String getFontFamily() {
-        return "geom-icon";
+        return "happy-icon";
     }
 
 

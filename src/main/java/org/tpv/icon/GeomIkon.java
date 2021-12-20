@@ -5,13 +5,13 @@ import org.kordamp.ikonli.Ikon;
 public enum  GeomIkon  implements Ikon {
 
 
-    CIRCLE_LINE( '\uE800'),
-    ELLIPSE_LINE( '\uE801');
+    EMO_HAPPY( '\uE800');
+
 
     private String description;
     private char code;
 
-    GeomIkon( char code) {
+    GeomIkon(char code) {
         this.description = "icon-" + name().toLowerCase().replace("_", "-");
         this.code = code;
     }
