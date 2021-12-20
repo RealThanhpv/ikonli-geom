@@ -6,7 +6,7 @@ import org.kordamp.ikonli.Ikon;
 import java.io.InputStream;
 import java.net.URL;
 
-public class GeomIkonliHandler extends AbstractIkonHandler {
+public class GeomIkonHandler extends AbstractIkonHandler {
     private static String fileName = "geom.ttf";
 
     @Override
