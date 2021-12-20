@@ -2,10 +2,13 @@ package org.tpv.icon;
 
 import org.kordamp.ikonli.AbstractIkonHandler;
 import org.kordamp.ikonli.Ikon;
+import org.kordamp.ikonli.IkonHandler;
+import org.kordamp.jipsy.ServiceProviderFor;
 
 import java.io.InputStream;
 import java.net.URL;
 
+@ServiceProviderFor(IkonHandler.class)
 public class GeomIkonHandler extends AbstractIkonHandler {
     private static String fileName = "happy.ttf";
 
