@@ -11,7 +11,7 @@ public class GeomIkonliHandler extends AbstractIkonHandler {
 
     @Override
     public boolean supports(String description) {
-        return description != null && description.startsWith("geom-");
+        return description != null && description.startsWith("icon-");
     }
 
     @Override

@@ -12,7 +12,7 @@ public enum  GeomIkon  implements Ikon {
     private char code;
 
     GeomIkon( char code) {
-        this.description = "geom-" + name().toLowerCase().replace("_", "-");
+        this.description = "icon-" + name().toLowerCase().replace("_", "-");
         this.code = code;
     }
 
