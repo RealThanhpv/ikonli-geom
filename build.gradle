@@ -39,6 +39,10 @@ repositories {
 
 dependencies {
     implementation ('org.kordamp.ikonli:ikonli-core:12.2.0')
+// https://mvnrepository.com/artifact/org.kordamp.jipsy/jipsy
+    implementation 'org.kordamp.jipsy:jipsy:0.6.0'
+
+
 }
 
 //application {
